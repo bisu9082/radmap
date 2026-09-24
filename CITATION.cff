@@ -1,0 +1,24 @@
+cff-version: 1.2.0
+message: "If you use this repository, please cite the associated article."
+title: "radmap: A Spatiotemporally Corrected Radiological Contamination Mapping Platform for Multi-Scenario Nuclear and Radiological Emergencies"
+authors:
+  - family-names: Kim
+    given-names: Hyunsung
+  - family-names: Shin
+    given-names: Myeongsik
+  - family-names: Kang
+    given-names: Ku
+license: CC-BY-4.0
+repository-code: "https://github.com/bisu9082/radmap"
+preferred-citation:
+  type: article
+  title: "A Spatiotemporally Corrected Radiological Contamination Mapping Platform for Multi-Scenario Nuclear and Radiological Emergencies"
+  journal: "Journal of Environmental Radioactivity"
+  year: 2026
+  authors:
+    - family-names: Kim
+      given-names: Hyunsung
+    - family-names: Shin
+      given-names: Myeongsik
+    - family-names: Kang
+      given-names: Ku

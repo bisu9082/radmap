@@ -1,0 +1,39 @@
+Creative Commons Attribution 4.0 International (CC BY 4.0)
+
+This work (the radmap repository: code, processed data, reconstructed grids,
+configuration files, and documentation) is licensed under the Creative Commons
+Attribution 4.0 International License.
+
+You are free to:
+  - Share  — copy and redistribute the material in any medium or format.
+  - Adapt  — remix, transform, and build upon the material for any purpose,
+             even commercially.
+The licensor cannot revoke these freedoms as long as you follow the license terms.
+
+Under the following terms:
+  - Attribution — You must give appropriate credit, provide a link to the
+    license, and indicate if changes were made. You may do so in any reasonable
+    manner, but not in any way that suggests the licensor endorses you or your use.
+  - No additional restrictions — You may not apply legal terms or technological
+    measures that legally restrict others from doing anything the license permits.
+
+Notices:
+  - You do not have to comply with the license for elements of the material in
+    the public domain or where your use is permitted by an applicable exception
+    or limitation.
+  - No warranties are given. The license may not give you all of the permissions
+    necessary for your intended use. For example, other rights such as publicity,
+    privacy, or moral rights may limit how you use the material.
+
+Third-party data notice:
+  - The raw JAEA airborne survey data are NOT redistributed in this repository;
+    they are available from the JAEA Database for Radioactive Substance Monitoring
+    Data (EMDB, https://radioactivity.nra.go.jp/emdb/) under their own terms.
+
+The full legal code of CC BY 4.0 is available at:
+  https://creativecommons.org/licenses/by/4.0/legalcode
+
+To attribute this work, please cite:
+  H. Kim, M. Shin, K. Kang, "A Spatiotemporally Corrected Radiological
+  Contamination Mapping Platform for Multi-Scenario Nuclear and Radiological
+  Emergencies," Journal of Environmental Radioactivity (2026).

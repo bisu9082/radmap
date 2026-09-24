@@ -1,0 +1,7 @@
+# Pin these to the exact versions you used (run: pip freeze | grep -Ei 'numpy|scipy|pandas|pykrige|matplotlib|geopandas|shapely')
+numpy
+scipy
+pandas
+pykrige
+matplotlib
+# add any others actually used (e.g., geopandas, shapely, scikit-learn, networkx for routing)
