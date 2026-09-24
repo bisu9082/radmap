@@ -1,0 +1,6 @@
+{
+  "anisotropy_benchmark_seed": 42,
+  "random_cv_seed": 0,
+  "spatial_cv_seed": 0,
+  "note": "Seeds fix the synthetic-field realization and the CV fold assignment for reproducibility."
+}

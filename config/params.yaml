@@ -1,0 +1,19 @@
+# Interpolation / analysis parameters (edit to match your exact runs)
+interpolation:
+  idw:        {power: 2.0, k: null}          # k=null uses all points
+  ordinary_kriging:  {variogram_model: gaussian}
+  universal_kriging: {variogram_model: gaussian, drift_terms: [regional_linear]}
+  anisotropic_kriging: {variogram_model: gaussian}  # ratio & angle from directional_variogram
+  tps:        {smoothing: 1.0e-3}
+  log_space:  true                            # all interpolation in log10 space
+cross_validation:
+  k_folds: 5
+  spatial_block: contiguous                   # contiguous-region hold-out
+anisotropy_benchmark:
+  ratios: [2, 5, 10, 20]
+  n_grid: 28
+  n_sample: 220
+  base_range: 0.18
+zoning_thresholds:                            # example dose-rate zone cut levels
+  hot: 1.0
+  warm: 0.1

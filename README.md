@@ -35,9 +35,14 @@ radmap/
 1. Create the environment: `pip install -r requirements.txt` (Python 3).
 2. Obtain the input data (see `data/README.md`): JAEA airborne survey products from EMDB and the
    HotSpot 3.1.2 detonation output.
-3. Run the pipeline scripts in `src/` with the configuration and seeds in `config/`.
-   The reported metrics are summarised in `results/` (spatial block-CV, operational validation,
-   anisotropy sensitivity).
+3. Self-test and reproduce the synthetic benchmark:
+   ```
+   python scripts/smoke_test.py                 # verifies modules (AGCF(150 m)=8.2, decay, metrics)
+   python scripts/run_anisotropy_benchmark.py   # -> results/synth_anisotropy_CV_reproduced.csv
+   ```
+   The benchmark reproduces the qualitative Figure-7 pattern (anisotropy-aware methods robust,
+   isotropic methods degrade). The archived `results/synth_anisotropy_CV.csv` holds the reported
+   values; the Fukushima/HotSpot case studies run the same `src/radmap` modules on the input data.
 
 ## Data availability
 - **HotSpot detonation reference field:** generated with HotSpot Health Physics Codes v3.1.2.

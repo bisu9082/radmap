@@ -1,7 +1,7 @@
-# Pin these to the exact versions you used (run: pip freeze | grep -Ei 'numpy|scipy|pandas|pykrige|matplotlib|geopandas|shapely')
-numpy
-scipy
-pandas
-pykrige
-matplotlib
-# add any others actually used (e.g., geopandas, shapely, scikit-learn, networkx for routing)
+# Versions verified to run the provided scripts (this environment).
+# Regenerate on your machine with: pip freeze | grep -Ei 'numpy|scipy|pandas|pykrige'
+numpy==2.2.6
+scipy==1.15.3
+pandas==2.3.3
+pykrige==1.7.3
+matplotlib   # for figures (version as installed)
